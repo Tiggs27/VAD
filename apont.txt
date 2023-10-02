@@ -1,0 +1,4 @@
+-> dois mapas das duas cidades na mesma pagina
+-> nao e preciso aumentar a complexidade dos mapas
+-> botao em cima ou em baixo do mapa para mais detalhes
+-> mapa dos top 10 e top piores

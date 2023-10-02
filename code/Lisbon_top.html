@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <link rel="stylesheet" href="style/style_top.css" />
+    <title>Title</title>
+</head>
+<body>
+<div class ="first_bar">
+    <p class="vad">Top cheapest rooms in the Lisbon neighbourhood</p>
+    <a class="custom_button" href="index.html">Go Back</a>
+</div>
+<div id ="tooltip">
+    Neighbourhood_group: <span id = "neighbourhood_group" class="legend_info"></span><br>
+    Top mais barato: <span id = "conta" class = legend_info></span><br>
+</div>
+<svg id="maps_top_porto" width="100%" height="500">
+    <g transform="translate(40,30)">
+        <svg  width = "250" height = "45">
+            <svg id = "legend" width = "300" height = "30"></svg>
+        </svg>
+    </g>
+    <g transform= "translate(40,90)" >
+        <svg id = "titles" width="2000" heigh = "20">
+            <text id = titles x="1140" y="25" fill="black">Entire Home/Apt</text>
+            <text id = titles x="240" y="25" fill="black">Private Room</text>
+            <text id = titles x="540" y="25" fill="black">Shared Room</text>
+            <text id = titles x="840" y="25" fill="black">Hotel Room</text>
+        </svg>
+    </g>
+    <g transform="translate(0,100)">
+        <svg id="map_lisbon" width="250" height="400" x="1100" y="0"></svg>
+    </g>
+
+    <svg  id="map_lisbon_private" width="350" height="400" x="200" y="100"></svg>
+
+    <svg id="map_lisbon_shared" width="350" height="400" x="500" y="100"></svg>
+
+    <svg  id="map_lisbon_ho" width="350" height="400" x="800" y="100"></svg>
+</svg>
+
+    <script type="text/javascript" src="js/Lisbon_ent.js"></script>
+    <script type="text/javascript" src="js/Lisbon_private.js"></script>
+    <script type="text/javascript" src="js/Lisbon_shared.js"></script>
+    <script type="text/javascript" src="js/Lisbon_hotel.js"></script>
+
+</body>
+</html>

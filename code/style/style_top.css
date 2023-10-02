@@ -1,0 +1,57 @@
+body{
+    margin-top: -25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.titles{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: Montserrat
+}
+.legenda_teste {
+    position: absolute;
+    top: 85px;
+    left: 40px;
+}
+.first_bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 0px;
+}
+.vad{
+    position:relative;
+    left:35px;
+    top:15px;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    font-family: 'Courier New', Courier, monospace;
+}
+.custom_button{
+    position: relative;
+    top: -37px;
+    left: 1350px;
+    background-color: rgba(59, 59, 59, 0.91);
+    color: white;
+    border-radius: 15px;
+    padding: 14px 32px;
+}
+.custom_button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+#tooltip {
+    text-align: left;
+    padding: 16px;
+    background-color: rgb(190, 177, 172);
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    visibility: hidden;
+    cursor: "default";
+    font-size: 10px;
+}

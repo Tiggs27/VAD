@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="style/Lisbon.css">
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class ="first_bar">
+    <p class="vad">Lisbon</p>
+    <a class="custom_button" href="index.html">Go Back</a>
+</div>
+<div id ="tooltip">
+    Neighbourhood_group: <span id = "neighbourhood_group" class="legend_info"></span><br>
+    Mean Price: <span id = "price" class = legend_info></span><br>
+</div>
+<svg id = first_map width = "1000" height = "400">
+    <text id = "title_legend"x="80" y="25" fill="black">MEAN PRICE BY NEIGHBOURHOOD GROUP</text>
+    <g transform="translate(60,40)">
+        <svg id = "legend_price" width = "300" height = "20" x="20px"></svg>
+    </g>
+    <g transform = "translate(0,30)">
+        <svg id="map_price" width="350" height="400"></svg>
+    </g>
+    <svg id = "graph_price" width="600" height = "425" x="300px" y="-30px"></svg>
+</svg>
+
+
+
+
+<svg id = second_map width = "1000" height = "400">
+    <text id = "title_legend" x="83" y="16" fill="black">MEAN REVIEW BY NEIGHBOURHOOD GROUP</text>
+    <g transform="translate(60,30)">
+        <svg id = "legend_review" width = "300" height = "20"></svg>
+    </g>
+    <g transform="translate(0,30)">
+        <svg id="map_review" width="350" height="350"></svg>
+    </g>
+        <svg id = "graph_review" width="600" height = "350" x="300px" y="25px"></svg>
+</svg>
+
+<div class="Grafico_titulo">
+    <p>MEAN PRICE ACROSS THE YEAR</p>
+</div>
+<div class="grafico">
+    <svg id="map_lisbon" width="500" height="500"></svg>
+    <div class="legenda_grafico">
+        <select id="selectButton"></select> </div>
+    <g transform="translate(500,500)">
+        <svg id="map_porto" width="500" height="500" ></svg>
+    </g>
+</div>
+
+<script type="text/javascript" src="js/Lisbon.js"></script>
+<script type="text/javascript" src="js/Lisbon_grafico.js"></script>
+
+</body>
+</html>

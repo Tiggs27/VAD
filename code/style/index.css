@@ -1,0 +1,299 @@
+body{
+    margin-top: -25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+}
+text#title_legend{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: Montserrat
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.topnav {
+    background-color: #333;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0%;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+.lisboa{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    color: rgb(32, 29, 32);
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.porto{
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    color: rgb(32, 29, 32);
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+  }
+
+#tooltip {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 16px;
+    background-color: rgb(182, 188, 208);
+    border: 1px solid black;
+    width: 200;
+    height: 100px;
+    color: black;
+    position: absolute;
+    visibility: hidden;
+    cursor: "default";
+    font-size: 20px;
+}
+.div_geral{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.div_porto{
+    position: relative;
+    top: 100px;
+    left: 600px;
+    width: 400px;
+}
+.teste{
+    position: absolute;
+    top: 1000px;
+}
+.button_v2 {
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #155789;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.button_v2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button_v2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button_v2:hover span {
+    padding-right: 25px;
+}
+
+.button_v2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button {
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #155789;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+}
+.first_bar{
+    width: 100%;
+    height: 50px;
+    background-color: #262626;
+    padding-bottom: 15px;
+    border-radius: 0px;
+}
+.vad{
+    position:relative;
+    left:35px;
+    top:15px;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    font-family: 'Courier New', Courier, monospace;
+}
+#titles{
+    font-size: 25px;
+}
+#space{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button_p {
+    display: inline-block;
+    border-radius: 0px;
+    background-color:#155789;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.button_p span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button_p span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button_p:hover span {
+    padding-right: 25px;
+}
+
+.button_p:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button_pt {
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #155789;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.button_pt span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button_pt span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button_pt:hover span {
+    padding-right: 25px;
+}
+
+.button_pt:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.botoes_lisboa{
+    position: absolute;
+    top: 650px;
+    left: 430px;
+}
+.botoes_porto{
+    position: absolute;
+    top: 650px;
+    left: 1050px;
+}
+.botoes_top_lis{
+    position: absolute;
+    top: 680px;
+    left: 430px;
+}
+.botoes_top_por{
+    position: absolute;
+    top: 680px;
+    left: 1050px;
+}

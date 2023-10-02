@@ -1,0 +1,81 @@
+body{
+    margin-top: -25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.grafico{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+.legenda_grafico{
+    position: absolute;
+    top: 400px;
+    left: 650px;
+}
+
+text#title_legend{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Montserrat
+}
+
+p{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Montserrat
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.Grafico_titulo{
+    position: absolute;
+    top: 75px;
+    left: 1050px
+}
+.first_bar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 0px;
+}
+.vad{
+    position:relative;
+    left:80px;
+    top:10px;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    font-family: 'Courier New', Courier, monospace;
+}
+.custom_button{
+    position: relative;
+    top: -37px;
+    left: 1390px;
+    background-color: rgba(59, 59, 59, 0.91);
+    color: white;
+    border-radius: 15px;
+    padding: 14px 32px;
+}
+.custom_button:hover {
+    background-color: #000000;
+    color: white;
+}
+#tooltip {
+    text-align: left;
+    padding: 16px;
+    background-color: rgb(190, 177, 172);
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    visibility: hidden;
+    cursor: "default";
+    font-size: 10px;
+}
